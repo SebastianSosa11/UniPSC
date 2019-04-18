@@ -1,0 +1,413 @@
+
+  .add_height{
+    height: 10px;
+  }
+  .inventory_titles{
+    font-size: 3vw;
+  }
+  .inventoryTitle{
+    font-size: 5vw;
+    color: rgb(132, 130, 131);
+    margin: auto;
+  }
+  #container_chassis{
+    background: url("/static/images/options/container_chassis_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #container_chassis:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/container_chassis_icon.png"); */
+    background: url("/static/images/options/container_chassis_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #container_chassisM{
+    background: url("/static/images/options/container_chassis_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #container_chassisM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/container_chassis_icon.png"); */
+    background: url("/static/images/options/container_chassis_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #gensets{
+    background: url("/static/images/options/gensets_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #gensets:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/gensets_icon.png"); */
+    background: url("/static/images/options/gensets_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #gensetsM{
+    background: url("/static/images/options/gensets_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #gensetsM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/gensets_icon.png"); */
+    background: url("/static/images/options/gensets_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #flatbeds{
+    background: url("/static/images/options/flatbeds_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #flatbeds:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/flatbeds_icon.png"); */
+    background: url("/static/images/options/flatbeds_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #flatbedsM{
+    background: url("/static/images/options/flatbeds_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #flatbedsM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/flatbeds_icon.png"); */
+    background: url("/static/images/options/flatbeds_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #lowboys{
+    background: url("/static/images/options/lowboys_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #lowboys:hover{
+      /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/lowboys_icon.png"); */
+      background: url("/static/images/options/lowboys_icon.png");
+      background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #lowboysM{
+    background: url("/static/images/options/lowboys_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #lowboysM:hover{
+      /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/lowboys_icon.png"); */
+      background: url("/static/images/options/lowboys_icon.png");
+      background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #dollys{
+    background: url("/static/images/options/dollys_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #dollys:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/dollys_icon.png"); */
+    background: url("/static/images/options/dollys_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #dollysM{
+    background: url("/static/images/options/dollys_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #dollysM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/dollys_icon.png"); */
+    background: url("/static/images/options/dollys_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #dry_and_reef_vans{
+    background: url("/static/images/options/dry_and_reef_vans_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #dry_and_reef_vans:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/dry_and_reef_vans_icon.png"); */
+    background: url("/static/images/options/dry_and_reef_vans_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #dry_and_reef_vansM{
+    background: url("/static/images/options/dry_and_reef_vans_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #dry_and_reef_vansM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/dry_and_reef_vans_icon.png"); */
+    background: url("/static/images/options/dry_and_reef_vans_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #containers{
+    background: url("/static/images/options/containers_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #containers:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/containers_icon.png"); */
+    background: url("/static/images/options/containers_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #containersM{
+    background: url("/static/images/options/containers_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #containersM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/containers_icon.png"); */
+    background: url("/static/images/options/containers_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #truck_fleets{
+    background: url("/static/images/options/default_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #truck_fleets:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/default_icon.png"); */
+    background: url("/static/images/options/default_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #truck_fleetsM{
+    background: url("/static/images/options/default_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #truck_fleetsM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/default_icon.png"); */
+    background: url("/static/images/options/default_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #powerpacks{
+    background: url("/static/images/options/powerpacks_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #powerpacks:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/powerpacks_icon.png"); */
+    background: url("/static/images/options/powerpacks_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #powerpacksM{
+    background: url("/static/images/options/powerpacks_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #powerpacksM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/powerpacks_icon.png"); */
+    background: url("/static/images/options/powerpacks_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #accessories{
+    background: url("/static/images/options/accessories_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #accessories:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/accessories_icon.png"); */
+    background: url("/static/images/options/accessories_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #accessoriesM{
+    background: url("/static/images/options/accessories_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #accessoriesM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/accessories_icon.png"); */
+    background: url("/static/images/options/accessories_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #services{
+    background: url("/static/images/options/default_icon.png");
+    background-size: 38em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 14.7em;
+  }
+  #services:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/default_icon.png"); */
+    background: url("/static/images/options/default_icon.png");
+    background-size: 42em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+  #servicesM{
+    background: url("/static/images/options/default_icon.png");
+    background-size: 30em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 11.7em;
+  }
+  #servicesM:hover{
+    /* background: linear-gradient(rgb(166, 166, 167,0.5),rgb(166, 166, 167,0.5)), url("/static/images/options/default_icon.png"); */
+    background: url("/static/images/options/default_icon.png");
+    background-size: 34em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+  }
+@media only screen and (min-width: 1000px) {
+  .yes_mobile{
+    display: none;
+  }
+  .no_mobile{
+    display: block;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .yes_mobile{
+    display: block;
+  }
+  .no_mobile{
+    display: none;
+  }
+  /* #container_chassis {
+    background: url("/static/images/options/container_chassis_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #gensets{
+    background: url("/static/images/options/gensets_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #flatbeds{
+    background:url("/static/images/options/flatbeds_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #lowboys{
+    background: url("/static/images/options/lowboys_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #dollys{
+    background: url("/static/images/options/dollys_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #dry_and_reef_vans{
+    background: url("/static/images/options/dry_and_reef_vans_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #containers{
+    background: url("/static/images/options/containers_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #truck_fleets{
+    background: url("/static/images/options/default_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #powerpacks{
+    background: url("/static/images/options/powerpacks_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #accessories{
+    background: url("/static/images/options/accessories_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  }
+  #services{
+    background: url("/static/images/options/default_icon.png");
+    background-size: 20em;
+    background-repeat: no-repeat;
+    border-color: rgb(240, 240, 241);
+    height: 7.7em;
+  } */
+}
